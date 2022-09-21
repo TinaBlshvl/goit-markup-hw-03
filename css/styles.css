@@ -1,0 +1,277 @@
+/* --------------ALL--------------- */
+:root {
+--accent-color: #2196F3;
+    --title-text-color: #212121;
+    --text-color: #757575;
+    --btn-color: #F5F4FA;
+    --white-color: #fff;
+}
+
+.page {
+    background-color: var(--white-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--title-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+ul {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--title-text-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+/* ------------INDEX------------- */
+/* ------------HEAD-------------- */
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #000;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts .link {
+    color: var(--text-color);
+
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+
+/* -----------HERO----------- */
+.hero,
+.footer {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--white-color);
+
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    max-width: 696px;
+
+    padding-top: 200px;
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.privilege .privilege-title {
+    line-height: 1.14;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.privilege-text {
+    color: var(--text-color);
+
+    line-height: 1.71;
+}
+
+/* --------------HEADERS-------------- */
+.section-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.visualy-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* --------------SECTION ABOUT------------- */
+
+
+
+
+
+
+/* ---------------TEAM-------------------- */
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.team .team-title {
+    font-size: 16px;
+    line-height: 1.18;
+    font-weight: 500;
+}
+
+.team .team-text {
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-list-item {
+    background-color: var(--white-color);
+}
+
+/* -----------FOOTER------------ */
+.address-link,
+.address .link {
+    line-height: 1.71;
+}
+
+.address .link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+}
+
+.address-link {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.footer .logo {
+    color: var(--white-color);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* -----------PORTFOLIO----------- */
+.portfolio .navi-btn {
+    background-color: var(--btn-color);
+
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.portfolio .navi-btn:hover,
+.portfolio .navi-btn:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.portfolio .navi-btn.current {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio .portfolio-text {
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+
+.visualy-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
