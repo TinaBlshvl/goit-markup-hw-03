@@ -322,9 +322,14 @@ img {
     padding-bottom: 94px;
 }
 
+.header-nav {
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 25px;
+}
+
 .portfokio-list-content {
-    padding-top: 20px;
-    padding-bottom: 20px;
+   padding: 20px 24px;
+    border: 1px solid #EEE;
 }
 
 .portfolio .navi-btn {
