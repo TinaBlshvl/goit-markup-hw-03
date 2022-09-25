@@ -356,10 +356,6 @@ img {
     margin-bottom: 4px;
 }
 
-/* .portfolio .link {
-    width: calc((100% - 90px) / 3);
-} */
-
 .portfolio .navi-btn:hover,
 .portfolio .navi-btn:focus {
     background-color: var(--accent-color);
@@ -379,7 +375,7 @@ img {
 }
 
 .portfolio-list-item {
-    width: calc((100% - 90px) / 3);
+    width: calc((100% - 60px) / 3);
 }
 
 .portfolio-title {
